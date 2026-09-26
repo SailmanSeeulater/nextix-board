@@ -1,0 +1,8 @@
+{
+  "name": "nextix-board",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

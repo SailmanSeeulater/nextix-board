@@ -1,0 +1,6 @@
+# nexTix settings for this repo (see docs/phase4.md in the nexTix project).
+# No app section: this stage of the sample is backend-only, so runs show the diff and tests.
+test: npm test
+agent:
+  extra_instructions: |
+    Keep the code dependency-free (Node's built-in test runner only).
