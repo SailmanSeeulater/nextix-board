@@ -3,6 +3,8 @@
   --ink: #1d1d1b;
   --muted: #5c5a55;
   --accent: #2f5d50;
+  --hero-bg: #f0fdf4;
+  --hero-ink: #1e3a8a;
 }
 
 * {
@@ -46,10 +48,17 @@ main {
   padding: 96px 48px;
 }
 
+.hero {
+  background: var(--hero-bg);
+  border-radius: 8px;
+  padding: 48px;
+}
+
 .hero h1 {
   font-size: 56px;
   line-height: 1.1;
   margin: 0 0 16px;
+  color: var(--hero-ink);
 }
 
 .hero p,
