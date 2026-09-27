@@ -8,7 +8,7 @@ export default function Home() {
         This page exists so nexTix can take before and after screenshots when an agent
         changes it.
       </p>
-      <a className="button" href="/about">
+      <a className="button button-purple" href="/about">
         Learn more
       </a>
     </section>

@@ -3,6 +3,7 @@
   --ink: #1d1d1b;
   --muted: #5c5a55;
   --accent: #2f5d50;
+  --accent-purple: #6d28d9;
   --hero-bg: #f0fdf4;
   --hero-ink: #1e3a8a;
 }
@@ -77,4 +78,13 @@ main {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.button-purple {
+  background: var(--accent-purple);
+  border-radius: 9999px;
+}
+
+.button-purple:focus-visible {
+  outline-offset: 2px;
 }
