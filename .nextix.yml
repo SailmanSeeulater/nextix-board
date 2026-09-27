@@ -1,0 +1,16 @@
+# nexTix settings for this repo (see docs/phase4.md in the nexTix project).
+setup:
+  - npm ci
+test: npm test
+app:
+  start: NEXT_TELEMETRY_DISABLED=1 npx next dev --port 3000 --hostname 127.0.0.1
+  port: 3000
+  ready_path: /
+  ready_timeout_s: 120
+  screenshots:
+    - path: /
+    - path: /about
+agent:
+  extra_instructions: |
+    This is a Next.js App Router app written in plain JavaScript (no TypeScript).
+    Keep styles in app/globals.css. Don't add dependencies.
