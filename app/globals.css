@@ -3,7 +3,7 @@
   --ink: #1d1d1b;
   --muted: #5c5a55;
   --accent: #2f5d50;
-  --hero-bg: #eff6ff;
+  --hero-bg: #f0fdf4;
   --hero-ink: #1e3a8a;
 }
 
@@ -50,7 +50,7 @@ main {
 
 .hero {
   background: var(--hero-bg);
-  border-radius: 16px;
+  border-radius: 8px;
   padding: 48px;
 }
 
